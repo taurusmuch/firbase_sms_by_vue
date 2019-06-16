@@ -1,10 +1,10 @@
 <template>
   <div id="container">
-    <input type="text" id="phone_no" placeholder="phone" value="+886932234045">
+    <input type="text" id="phone_no" placeholder="phone" value="">
     <button type="submit" id="sign_btn" @click="onSignInSubmit">LOGIN</button>
     <br>
     <br>
-    <input type="text" id="code" placeholder="" value="123456">
+    <input type="text" id="code" placeholder="" value="">
     <button type="submit" id="check_code" @click="checkCode">check code</button>
   </div>
 </template>
